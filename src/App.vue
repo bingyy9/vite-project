@@ -8,7 +8,13 @@ import EventDemo2 from './components/EventDemo2.vue';
 import EventDemo3 from './components/EventDemo3.vue';
 import ArrayListDemo from './components/ArrayListDemo.vue';
 import ComputedDemo from './components/ComputedDemo.vue';
-import ClassDemo from './components/ClassDemo.vue';
+import ClassBindDemo from './components/ClassBindDemo.vue';
+import StyleBindDemo from './components/StyleBindDemo.vue'
+import WatchDemo from './components/WatchDemo.vue';
+import ModelDemo from './components/ModelDemo.vue';
+import RefDemo from './components/RefDemo.vue';
+import ComponentDemo from './components/ComponentDemo.vue';
+import Parent from './components/Parent.vue';
 
 // export default {
 //   data(){
@@ -24,13 +30,19 @@ import ClassDemo from './components/ClassDemo.vue';
   <!-- <h3>模板语法</h3>
   <p>{{ msg }}</p>
   <p v-html="rawHtml"></p> -->
-  <HelloWorld2/>
-  <IfDemo/>
-  <ListKeyDemo/>
-  <EventDemo/>
-  <EventDemo2/>
-  <EventDemo3/>
-  <ArrayListDemo/>
-  <ComputedDemo/>
-  <ClassDemo/>
+  <HelloWorld2 />
+  <IfDemo />
+  <ListKeyDemo />
+  <EventDemo />
+  <EventDemo2 />
+  <EventDemo3 />
+  <ArrayListDemo />
+  <ComputedDemo />
+  <ClassBindDemo />
+  <StyleBindDemo />
+  <WatchDemo />
+  <ModelDemo />
+  <RefDemo />
+  <ComponentDemo/>
+  <Parent/>
 </template>
