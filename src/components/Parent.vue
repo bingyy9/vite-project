@@ -15,6 +15,17 @@ export default {
       }
     }
   },
+  
+  // provide:{
+  //   provideData: "provideData爷爷的数据",
+  // },
+
+  //数据来源data
+  provide(){
+    return {
+      provideData: this.messsage
+    }
+  },
   components: {
     Child,
   },

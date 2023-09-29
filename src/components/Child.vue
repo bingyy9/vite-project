@@ -1,5 +1,7 @@
 <!-- Event Demo -->
 <script>
+import SubChild from './SubChild.vue';
+
 export default {
   data() {
     return {
@@ -45,7 +47,11 @@ export default {
       console.log("watch search change from " + oldValue + " to " + newValue)
       this.$emit("searchUpdate", this.search)
     }
-  }
+  },
+  components:{
+    SubChild,
+    SubChild
+}
 }
 </script>
 
@@ -85,5 +91,6 @@ export default {
   </div>
   
   搜索：<input type="text" v-model="search">
+  <SubChild/>
 </template>
 
